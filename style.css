@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    background-position:center;
+    background-size:cover;
+  /*  background-color: blue;   */
+}
+.navbar{
+    width:1200px;
+    height:50px;
+    margin:auto;
+    justify-content:center;
+}
+.btn{
+    padding:.25rem .75rem;
+    font-size:1.25rem;
+    line-height:1;
+    height:40px;
+    width:40px;;
+    border:10px;
+    background-color: blue;
+    border-color: white;
+    border-radius:4px;
+/* background-color:transparent;
+border:1px solid transparent;
+border-radius:.25rem;
+transition:box-shadow .15s ease-in-out
+*/
+}
+.btn-icon{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    vertical-align: middle;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    /*
+width:1.5em;
+height:1.5em;
+vertical-align:middle;
+background-repeat:no-repeat;
+background-position:center;
+background-size:100% */
+}
+.imgSrc{
+    padding-top:5px;
+}
+.logo{
+    float:left;
+    margin-right: 150px;
+}
+.search{
+    margin-top:5px;
+    float:left;
+}
+.srch{
+    width:500px;
+    height:30px;
+    border-color: black;
+    border-width: 1.5px;
+    border-radius: 3px;
+    font-size:15px;
+    font-family: Calibri;
+}
+.srch2{
+    height: 34px;
+    width:50px;
+    border:10px;
+    position: relative;
+    left:-50px;
+    bottom:-8px;
+    background-color:transparent;
+    text-align: center;
+    border-width: 2px;
+}
+.srch2 a{
+    color:black;
+}
+a:link{
+    text-decoration:none;
+}
+.mic{
+    margin-top: 7px;
+    position: relative;
+    right:35px;
+    float:left;
+}
+.mic a{
+    color:black;
+}
+.mic2{
+    padding: 6px 6px;
+    text-align:center;
+    border-radius:50px;
+    background-color:rgb(243, 243, 243);
+}
+.noti{
+    margin-top: 10px;
+    position: relative;
+    left:170px;
+    float:left;
+}
+.noti a{
+    display:flex;
+    color: black;
+}
+.noti .icon2{
+    position: relative;
+    left:20px;
+}
+.noti .icon3{
+    position: relative;
+    left:40px;
+}
+.user{
+    position: relative;
+    left:70px;
+    border-radius: 200px;
+}
+.navbar2{
+    width:1200px;
+    margin:auto;
+    padding-top:30px;
+    background-color:whitesmoke;
+}
+.play{
+    height: 315px;
+    width: 560px;
+}
